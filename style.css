@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-top-style: border-box;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+
+
+.nav-menu-list  a{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    justify-content: space-between;
+    padding: 5px;
+    /* margin: 80px; */
+    list-style-type: none; 
+    text-decoration: none;
+    /* padding: ;           */
+    margin: 20px;           
+    display: flex;
+    color: darkred;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-menu-list a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+
+
+.different-sections{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+p{
+    /* line-height: 1.5px; */
+    font-size: 16px;
+}
+
+img[src] {
+    border: 2px solid black;
+    border-radius: 50%;
+    }
+
+#project, h3{
+    color: rgb(159, 211, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project1{
+    background-color: blueviolet;
+    padding: 20px 15px;
+    margin: 5px;
+}
+
+.project2{
+    background-color: rgb(88, 62, 114);
+    padding: 20px 15px;
+    margin: 5px;
+}
+
+.project3{
+    background-color: rgb(145, 100, 190);
+    padding: 20px 15px;
+    margin: 5px;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: lightgray; 
+}
+
+#skills{
+    background-color: lightyellow;
+    margin: 0 7px;
+}
+
+
+#skills li{
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#skills li::before {
+    content: "⭐ ";
+    }
+
+
+    #testimonials {
+        background-color: #f9f9f9; /* Light background for contrast */
+        padding: 20px;
+        border-top: 2px solid #ddd;
+    }
+    
+    #testimonials h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .testimonial {
+        font-style: italic; /* Gives the text a testimonial feel */
+        color: #555;
+        border-left: 4px solid #ffa500; /* Adds a left border */
+        padding-left: 15px;
+        margin: 20px auto;
+        max-width: 600px;
+        line-height: 1.6;
+    }
+    
+    .testimonial cite {
+        display: block;
+        text-align: right;
+        font-size: 0.9em;
+        margin-top: 10px;
+        color: #e81010dd;
+        
+    }
+    
